@@ -51,3 +51,28 @@ else
 
 Console.WriteLine("Наибольшее число: " + max);
 */
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+/*
+Console.Write("Введите число: ");
+double a = Convert.ToDouble(Console.ReadLine());
+double b = a % 2;
+
+if(a > 0)
+{
+    if(b == 0)
+    {
+        Console.WriteLine($"Число: {a} является четным.");
+    }
+    else 
+    {
+        Console.WriteLine($"Число: {a} не является четным.");
+    }
+}
+else 
+{
+    Console.WriteLine($"Число: {a} не является положительным.");
+}
+*/
+   
