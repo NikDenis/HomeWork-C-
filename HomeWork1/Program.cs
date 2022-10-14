@@ -90,4 +90,8 @@ while(current <= n)
     Console.Write(current + " ");
     current += 2;
 }
+if(n < 0)
+{
+    Console.write($"Число {n} является отрицательным");
+}
 */
