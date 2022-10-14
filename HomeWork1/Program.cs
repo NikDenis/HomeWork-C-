@@ -19,3 +19,35 @@ else
     Console.WriteLine("Наименьшее число: " + max);
 }
 */
+
+//Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+/*
+Console.Write("Введите первое число: ");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите второе число: ");
+double b = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите третье число: ");
+double c = Convert.ToDouble(Console.ReadLine());
+double max = 0;
+ 
+if(a > b)
+{
+    max = a;
+}
+else
+{
+    max = b;
+}
+ 
+if(max > c)
+{
+    
+}
+else 
+{
+    max = c;
+}
+
+Console.WriteLine("Наибольшее число: " + max);
+*/
