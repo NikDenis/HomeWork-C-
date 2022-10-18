@@ -3,7 +3,7 @@
 456 -> 5
 782 -> 8
 918 -> 1
-*/
+
 int CutNumber(int number)
 {
     int ed = number / 10;
@@ -23,7 +23,7 @@ else
     Console.WriteLine($"Число: {num} не является трухзначным.");
 }
 Console.WriteLine("Спасибо за доверие!");
-
+*/
 
 
 
