@@ -66,3 +66,53 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Сумма цифр числа: {a} равна {SumNum(a)}");
 Console.WriteLine("Мы рады что вы выбрали нас!");
 */
+
+
+/*Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+
+6, 1, 33 -> [6, 1, 33]
+
+int[] arr = new int[8];
+
+void PrintArray (int[] array)
+{
+    int count = array.Length;
+
+    for(int i = 0; i < count; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Введите первое число масива: ");
+int a = Convert.ToInt32(Console.ReadLine()); 
+arr[0] = a;
+Console.WriteLine("Введите второе число масива: ");
+int b = Convert.ToInt32(Console.ReadLine());
+arr[1] = b;
+Console.WriteLine("Введите третье число масива: ");
+int c = Convert.ToInt32(Console.ReadLine()); 
+arr[2] = c;
+Console.WriteLine("Введите четвертое число масива: ");
+int d = Convert.ToInt32(Console.ReadLine());
+arr[3] = d;
+Console.WriteLine("Введите пятое число масива: ");
+int e = Convert.ToInt32(Console.ReadLine());
+arr[4] = e;
+Console.WriteLine("Введите шестое число масива: ");
+int f = Convert.ToInt32(Console.ReadLine());
+arr[5] = f;
+Console.WriteLine("Введите седьмое число масива: ");
+int g = Convert.ToInt32(Console.ReadLine());
+arr[6] = g;
+Console.WriteLine("Введите восьмое число масива: ");
+int h = Convert.ToInt32(Console.ReadLine());
+arr[7] = h;
+
+
+PrintArray(arr);
+*/
+
