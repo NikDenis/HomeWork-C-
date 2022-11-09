@@ -74,6 +74,9 @@ Console.WriteLine("Мы рады что вы выбрали нас!");
 
 6, 1, 33 -> [6, 1, 33]
 
+
+Console.WriteLine("Мы рады что вы выбрали нас!");
+
 int[] arr = new int[8];
 
 void PrintArray (int[] array)
@@ -87,32 +90,13 @@ void PrintArray (int[] array)
     Console.WriteLine();
 }
 
-Console.WriteLine("Введите первое число масива: ");
-int a = Convert.ToInt32(Console.ReadLine()); 
-arr[0] = a;
-Console.WriteLine("Введите второе число масива: ");
-int b = Convert.ToInt32(Console.ReadLine());
-arr[1] = b;
-Console.WriteLine("Введите третье число масива: ");
-int c = Convert.ToInt32(Console.ReadLine()); 
-arr[2] = c;
-Console.WriteLine("Введите четвертое число масива: ");
-int d = Convert.ToInt32(Console.ReadLine());
-arr[3] = d;
-Console.WriteLine("Введите пятое число масива: ");
-int e = Convert.ToInt32(Console.ReadLine());
-arr[4] = e;
-Console.WriteLine("Введите шестое число масива: ");
-int f = Convert.ToInt32(Console.ReadLine());
-arr[5] = f;
-Console.WriteLine("Введите седьмое число масива: ");
-int g = Convert.ToInt32(Console.ReadLine());
-arr[6] = g;
-Console.WriteLine("Введите восьмое число масива: ");
-int h = Convert.ToInt32(Console.ReadLine());
-arr[7] = h;
-
+for(int index = 0; index <= 7; index++)
+{
+    Console.WriteLine("Введите число масива: ");
+    arr[index] = Convert.ToInt32(Console.ReadLine());
+}
 
 PrintArray(arr);
-*/
 
+Console.WriteLine("Рады были помочь!");
+*/
