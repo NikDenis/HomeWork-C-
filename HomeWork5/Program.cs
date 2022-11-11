@@ -7,12 +7,17 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
     return array; 
 }
 */
+
+/*
 void ShowArray(int[] array)
 {
     for(int i = 0; i < array.Length; i++)
         Console.Write(array[i] + " ");
     Console.WriteLine();
 }
+*/
+
+
 /*
 int FindNegativeSum(int[] array)
 {
@@ -109,17 +114,25 @@ Console.WriteLine("Мы рады что вы выбрали нас!");
 [3 7 22 2 78] -> 76
 */
 
-int[] CreateRandomArray(int size, int minValue, int maxValue)
+/*
+double[] CreateRandomArray(int size, int minValue, int maxValue)
 {
-    int[] array = new int[size];
+    double[] array = new double[size];
     for(int i = 0; i < size; i++)
-        array[i] = new Random().Next(minValue, maxValue);
+        array[i] = new Random().NextDouble() + new Random().Next(minValue, maxValue);
     return array; 
 }
 
-int MinNumber(int[] array)
+void ShowArray(double[] array)
 {
-    int minnum = array[0];
+    for(int i = 0; i < array.Length; i++)
+        Console.Write(Math.Round(array[i], 3) + " ");
+    Console.WriteLine();
+}
+
+double MinNumber(double[] array)
+{
+    double minnum = array[0];
     for(int i = 0; i < array.Length; i++)
     {
         if(minnum > array[i])
@@ -131,9 +144,9 @@ int MinNumber(int[] array)
     
 }   
 
-int MaxNumber(int[] array)
+double MaxNumber(double[] array)
 {
-    int maxnum = array[0];
+    double maxnum = array[0];
     for(int i = 0; i < array.Length; i++)
     {
         if(maxnum < array[i])
@@ -151,12 +164,37 @@ Console.Write("Введите мин число масива: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите максимальное число массива: ");
 int max = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
 
-int[] myArray = CreateRandomArray(n, min, max);
+double[] myArray = CreateRandomArray(n, min, max);
 ShowArray(myArray);
-int minnum = MinNumber(myArray);
-int maxnum = MaxNumber(myArray);
-Console.Write($"Максимальное число масива: {maxnum} ");
-Console.Write($"Минимальное число массива: {minnum} ");
-int comparison = maxnum - minnum;
-Console.Write($"Разница между {maxnum} и {minnum} равна: {comparison}");
+double minnum = Math.Round(MinNumber(myArray), 3);
+double maxnum = Math.Round(MaxNumber(myArray), 3);
+Console.WriteLine();
+Console.WriteLine($"Максимальное число масива: {maxnum} ");
+Console.WriteLine($"Минимальное число массива: {minnum} ");
+Console.WriteLine();
+double comparison = maxnum - minnum;
+Console.WriteLine($"Разница между {maxnum} и {minnum} равна: {Math.Round(comparison, 3)}");
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
