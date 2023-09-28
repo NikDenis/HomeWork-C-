@@ -1,0 +1,15 @@
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\bin\Debug\net6.0\HomeWork2.exe
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\bin\Debug\net6.0\HomeWork2.deps.json
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\bin\Debug\net6.0\HomeWork2.runtimeconfig.json
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\bin\Debug\net6.0\HomeWork2.dll
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\bin\Debug\net6.0\HomeWork2.pdb
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.csproj.AssemblyReference.cache
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.AssemblyInfoInputs.cache
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.AssemblyInfo.cs
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.csproj.CoreCompileInputs.cache
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.dll
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\refint\HomeWork2.dll
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.pdb
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\HomeWork2.genruntimeconfig.cache
+D:\IT\Geekbrains2\C#\HomeWork\HomeWork-C-\HomeWork2\obj\Debug\net6.0\ref\HomeWork2.dll
